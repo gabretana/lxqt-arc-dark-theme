@@ -12,3 +12,4 @@ download the repository (zip format) and extract it in new folder
 
 ### Screenshot
 ![](http://i.imgur.com/480v4V8.png)
+![](http://i.imgur.com/3mXp0Xl.png)
