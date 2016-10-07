@@ -65,7 +65,8 @@ VolumePopup  > QPushButton {
     color: #D2D8E0;
     background: #444a58;
     padding: 2px 10px;
-    margin: 3px;
+    margin: 2px;
+    border-radius: 2px;
     qproperty-iconSize: 24px;
 }
 
@@ -192,7 +193,7 @@ QCalendarWidget #qt_calendar_monthbutton {
     margin: 2px;
 }
 QCalendarWidget #qt_calendar_monthbutton:hover {
-   border: 1px solid rgb(39, 44, 53);
+   border: 2px solid rgb(39, 44, 53);
    background: rgb(79, 86, 101);
 }
 QCalendarWidget #qt_calendar_monthbutton::menu-indicator {
@@ -306,8 +307,31 @@ TrayIcon {
 }
 
 
+#MainMenu QLineEdit {
+    background: rgb(64, 69, 82);
+    border: 2px solid #2D303B;
+    padding: 4px;
+    margin-button: 2px;
+    color: #D2D8E0;
+}
 
 
+#MainMenu ActionView {
+    border: none;
+    background: palette(text);
+    color: #D2D8E0;
+}
+
+#MainMenu ActionView::item {
+    border: 0px;
+    padding: 3px 0;
+}
+
+#MainMenu ActionView::item:selected, ActionView::item:hover {
+    border: 1px solid rgb(39, 44, 53);
+    background: rgb(79, 86, 101);
+    color: #D2D8E0;
+}
 
 /*
  * Mount plugin
