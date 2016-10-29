@@ -3,7 +3,7 @@
  */
 
 LXQtPanel #BackgroundWidget {
-    background:rgba(47, 52, 63, 90%);
+    background:rgba(47, 52, 63, 95%);
 }
 QToolTip {
     border: 1px solid rgb(39, 44, 53);
@@ -157,12 +157,14 @@ VolumePopup  > QSlider::sub-page:vertical {
 }
 
 #TaskBar QToolButton:on{
-    border: 1px solid rgb(57, 61, 75);
+    /*border: 1px solid rgb(57, 61, 75);*/
+    border-bottom: 2px solid rgb(82, 148, 226);
     background: rgb(39, 44, 53);
 }
 
 #TaskBar QToolButton:hover{
-   border: 1px solid rgb(39, 44, 53);
+   /*border: 1px solid rgb(39, 44, 53);*/
+   border-bottom: 2px solid rgb(79, 86, 101);
    background: rgb(79, 86, 101);
 }
 
@@ -192,8 +194,10 @@ QCalendarWidget #qt_calendar_monthbutton {
     padding:2px;
     margin: 2px;
 }
-QCalendarWidget #qt_calendar_monthbutton:hover {
-   border: 2px solid rgb(39, 44, 53);
+QCalendarWidget #qt_calendar_monthbutton:hover,
+QCalendarWidget #qt_calendar_prevmouth:hover,
+QCalendarWidget #qt_calendar_nextmouth:hover {
+   border: 1px solid rgb(39, 44, 53);
    background: rgb(79, 86, 101);
 }
 QCalendarWidget #qt_calendar_monthbutton::menu-indicator {
@@ -201,6 +205,7 @@ QCalendarWidget #qt_calendar_monthbutton::menu-indicator {
 }
 
 QCalendarWidget QTableView {
+    background-color: rgb(64, 69, 82);
     selection-background-color:#5294e2;
 }
 QCalendarWidget #qt_calendar_nextmonth {
@@ -221,6 +226,22 @@ QCalendarWidget QMenu {
 QCalendarWidget QMenu::item:selected {
     color: #D2D8E0;
     background: #5294e2;
+}
+
+QCalendarWidget QWidget {
+    alternate-background-color: rgb(64, 69, 82);
+}
+
+QCalendarWidget QAbstractItemView:enabled {
+    color: rgb(255, 253, 249);
+}
+
+QCalendarWidget QAbstractItemView:disabled {
+    color: rgb(141, 151, 162);
+}
+
+QCalendarWidget {
+    border: 1px solid rgb(43, 46, 57);
 }
 
 /*
@@ -312,6 +333,8 @@ TrayIcon {
     border: 2px solid #2D303B;
     padding: 4px;
     margin-button: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
     color: #D2D8E0;
 }
 
