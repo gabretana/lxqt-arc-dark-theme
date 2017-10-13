@@ -9,7 +9,7 @@ Download the repository (zip format) and extract it in folder:
 /usr/share/lxqt/themes
 ```
 
-### Recommend kvantum style [Arc KDE](https://github.com/PapirusDevelopmentTeam/arc-kde)
+### Recommended kvantum style [Arc KDE](https://github.com/PapirusDevelopmentTeam/arc-kde)
 
 ### Screenshot
 ![](http://i.imgur.com/480v4V8.png)
