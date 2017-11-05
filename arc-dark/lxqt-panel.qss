@@ -106,9 +106,15 @@ VolumePopup  > QSlider::sub-page:vertical {
 /*
  * Desktopswitch
  */
+
+#DesktopSwitch QToolButton {
+    margin: 2px;
+}
+
 #DesktopSwitch QToolButton:on {
     background: rgb(56, 60, 74);
     border: 1px solid rgb(39, 44, 53);
+    font: bold;
 }
 
 #DesktopSwitch QToolButton:hover {
