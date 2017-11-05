@@ -426,11 +426,11 @@ TrayIcon {
     padding: 3px;
     border: 0px;
 }
-#KbIndicator QLabel:disabled {
+#KbIndicator > QLabel:disabled {
     color: #D2D8E0;
 }
 
-#KbIndicator QLabel:enabled {
+#KbIndicator > QLabel:enabled {
     background: #383C4A;
 }
 
