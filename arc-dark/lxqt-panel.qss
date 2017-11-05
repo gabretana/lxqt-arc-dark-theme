@@ -181,6 +181,11 @@ VolumePopup  > QSlider::sub-page:vertical {
     background:rgba(47, 52, 63, 85%);
     border: 1px solid rgba(39, 44, 53, 85%);
 }
+
+#TaskBar LXQtGroupPopup QToolButton{
+    margin: 1px;
+}
+
 /*
  * Calendar Widget
  */
