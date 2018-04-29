@@ -8,6 +8,21 @@
 }
 
 /*
+ * Search line style
+/*
+
+QLineEdit {
+    background: rgb(64, 69, 82);
+    border: 1px solid rgb(80, 140, 212);
+    border-radius: 3px;
+    padding: 4px;
+    margin-button: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+    color: #D2D8E0;
+}
+
+/*
  * Buttons
  */
 
