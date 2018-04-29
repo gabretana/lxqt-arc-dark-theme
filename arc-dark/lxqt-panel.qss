@@ -341,7 +341,8 @@ TrayIcon {
 
 #MainMenu QLineEdit {
     background: rgb(64, 69, 82);
-    border: 2px solid #2D303B;
+    border: 1px solid rgb(80, 140, 212);
+    border-radius: 3px;
     padding: 4px;
     margin-button: 2px;
     margin-right: 2px;
