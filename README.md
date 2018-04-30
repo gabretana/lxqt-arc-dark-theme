@@ -8,9 +8,11 @@ Download the repository (zip format) and extract it in folder:
 ```
 /usr/share/lxqt/themes
 ```
+#### Arch Linux
+From [AUR](https://aur.archlinux.org/packages/lxqt-arc-dark-theme-git/)
 
 ### Recommended kvantum style [Arc KDE](https://github.com/PapirusDevelopmentTeam/arc-kde)
 
-### Screenshot
+### Screenshots
 ![](http://i.imgur.com/480v4V8.png)
 ![](http://i.imgur.com/3mXp0Xl.png)
