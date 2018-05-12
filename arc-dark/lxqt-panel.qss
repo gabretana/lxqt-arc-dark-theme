@@ -488,12 +488,12 @@ TrayIcon {
  */
 #WorldClock:hover {
    border: 1px solid rgb(39, 44, 53);
-    background: rgb(57, 61, 75);
+   background: rgb(57, 61, 75);
 }
 
 #WorldClockContent {
-    margin-right: 2px;
-    margin-left: 2px;
+    margin-right: 3px;
+    margin-left: 3px;
     padding: 2px;
     color: #D2D8E0;
 }
@@ -515,11 +515,11 @@ TrayIcon {
 }
 
 #Spacer[type="lined"] {
-    background-image: url(/spacer-plugin/spacer-line.svg);
+    background-image: url(spacer-plugin/spacer-line.svg);
 }
 
 #Spacer[type="dotted"] {
-    background-image: url(/spacer-plugin/spacer-dots.svg);
+    background-image: url(spacer-plugin/spacer-dots.svg);
  }
 
 #Spacer[orientation="horizontal"] {
