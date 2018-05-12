@@ -16,9 +16,9 @@ QLabel {
 }
 
 #closeButton:hover {
-    border: 0px solid rgba(0, 0, 0, 50%);
+/*    border: 0px solid rgba(0, 0, 0, 50%);
     padding: 2px;
-    background:rgba(47, 52, 63, 90%);
+    background:rgba(47, 52, 63, 90%); */
     qproperty-icon: url(lxqt-notificationd/close-hover.png);
 }
 
