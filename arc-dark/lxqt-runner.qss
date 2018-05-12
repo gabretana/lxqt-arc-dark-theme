@@ -3,7 +3,7 @@
  */
 
 #panel {
-    background:rgba(47, 52, 63, 85%);
+    background:rgba(47, 52, 63, 95%);
     border: 1px solid rgba(39, 44, 53, 85%);
 }
 
@@ -32,7 +32,7 @@ QToolButton::menu-indicator {
 
 #closeButton {
     qproperty-icon: url(lxqt-runner/close.svg);
-    margin: 2px;
+    margin: 1px;
 }
 #closeButton:hover{
    border: 0px solid rgba(0, 0, 0, 50%);
