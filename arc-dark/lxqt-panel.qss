@@ -163,8 +163,7 @@ VolumePopup  > QSlider::sub-page:vertical {
     padding: 2px;
 }
 
-#TaskBar QToolButton:on{
-    /*border: 1px solid rgb(57, 61, 75);*/
+#TaskBar QToolButton:on {
     border-bottom: 2px solid rgb(82, 148, 226);
     background: rgb(39, 44, 53);
 }
@@ -175,8 +174,6 @@ VolumePopup  > QSlider::sub-page:vertical {
 }
 
 #TaskBar QToolButton:hover {
-   /*border: 1px solid rgb(39, 44, 53);*/
-   /*border-bottom: 2px solid rgb(79, 86, 101);*/
    background: rgb(79, 86, 101);
 }
 
