@@ -169,9 +169,14 @@ VolumePopup  > QSlider::sub-page:vertical {
     background: rgb(39, 44, 53);
 }
 
-#TaskBar QToolButton:hover{
+#TaskBar QToolButton:on:hover {
+    border-bottom: 2px solid rgb(82, 148, 226);
+    background: rgb(79, 86, 101);
+}
+
+#TaskBar QToolButton:hover {
    /*border: 1px solid rgb(39, 44, 53);*/
-   border-bottom: 2px solid rgb(79, 86, 101);
+   /*border-bottom: 2px solid rgb(79, 86, 101);*/
    background: rgb(79, 86, 101);
 }
 
@@ -189,8 +194,12 @@ VolumePopup  > QSlider::sub-page:vertical {
     border: 1px solid rgba(39, 44, 53, 95%);
 }
 
-#TaskBar LXQtGroupPopup QToolButton{
-    margin: 1px;
+#TaskBar LXQtGroupPopup QToolButton:on {
+    background: rgb(39, 44, 53);
+}
+
+#TaskBar LXQtGroupPopup QToolButton:on:hover {
+    background: rgb(79, 86, 101);
 }
 
 /*
