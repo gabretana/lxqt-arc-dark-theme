@@ -5,6 +5,7 @@
 LXQtPanel #BackgroundWidget {
     background:rgba(47, 52, 63, 95%);
 }
+
 QToolTip {
     border: 1px solid rgb(39, 44, 53);
     background:rgb(64, 69, 82);
@@ -141,7 +142,7 @@ VolumePopup  > QSlider::sub-page:vertical {
 #QuickLaunch QToolButton{
     border: 0px;
     margin: 1px;
-    padding: 2px;
+    padding: 4px;
 }
 
 #QuickLaunch QToolButton:hover{
@@ -150,7 +151,7 @@ VolumePopup  > QSlider::sub-page:vertical {
 }
 
 #QuickLaunch QToolButton:pressed {
-    padding: 4px;
+    padding: 5px;
 }
 
 
