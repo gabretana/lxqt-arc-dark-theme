@@ -341,7 +341,7 @@ TrayIcon {
 }
 
 #MainMenu QMenu::item:selected {
-    color: #D2D8E0;
+    color: rgb(255, 255, 255);
     background: #5294e2;
 }
 
@@ -360,7 +360,7 @@ TrayIcon {
 
 #MainMenu ActionView {
     border: none;
-    background: palette(text);
+    background-color: rgb(56, 60, 74);
     color: #D2D8E0;
 }
 
@@ -370,9 +370,9 @@ TrayIcon {
 }
 
 #MainMenu ActionView::item:selected, ActionView::item:hover {
-    border: 1px solid rgb(39, 44, 53);
-    background: rgb(79, 86, 101);
-    color: #D2D8E0;
+    border: 1px solid #5294e2;
+    background: #5294e2;
+    color: rgb(255, 255, 255);
 }
 
 /*
