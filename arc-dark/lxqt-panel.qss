@@ -310,7 +310,7 @@ TrayIcon {
 #MainMenu {
     margin: 2px;
     padding: 2px;
-    border: 0px solid rgba(0, 0, 0, 30%);
+    border: none;
     background: rgba(0, 0, 0, 0%);
     qproperty-icon: url(mainmenu.svg);
     color: #D2D8E0;
@@ -325,7 +325,7 @@ TrayIcon {
 }
 
 #MainMenu  QMenu {
-    margin: 2px;
+    margin: 0px;
     background-color: rgb(56, 60, 74);
 }
 #MainMenu  QMenu::icon {
