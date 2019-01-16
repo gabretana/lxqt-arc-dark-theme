@@ -2,6 +2,8 @@
 
 Theme based on [Arc by horst3180](https://github.com/horst3180/Arc-theme) and LXQt dark theme
 
+# This repo is hosted on [GitLab](https://gitlab.com/isseigx/lxqt-arc-dark-theme) now
+
 ## Install
 Download the repository (zip format) and extract it in folder:
 
